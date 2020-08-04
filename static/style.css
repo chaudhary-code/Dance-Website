@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+ margin: 0 14px;
+ padding-bottom: 0%;
+
+}
+
+#logo img{
+  height: 42px;
+  filter: invert(1);
+}
+
+#navbar ul{
+  display: flex;  
+  flex-direction: row;        
+  align-items: center;        
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 29px;
+    color: white;
+    
+}
+
+#navbar li a:hover{
+    color: aqua;
+}
+
+#navbar{
+  background-color: black;
+  padding: 13px 14px;
+}
+
+#navbar li{
+  list-style: none;
+  padding: 7px 11px;
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-size: 35px;
+  height: 300px;
+  background-color: red;
+  background: center / cover no-repeat url("/static/bg.jpg");
+}
+
+#introsection div.small{
+  opacity: 1;
+}
+
+
+#missionsection h2{
+  padding-top: 12px;
+  text-align: center;  
+}
+
+
+.card{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 209px;
+  margin: 23px 15px;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.card h3{
+  margin: 10px 10px;
+}
+
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-img{
+  height: 131px;
+  padding: 0px 13px;
+  margin-top: 10px;
+}
+
+.card-img img{
+  height: inherit;
+}
+
+.card-content{
+  padding: 7px;
+}
+
+#missionsection{
+  height: 300px;
+  width: 67%;
+  margin: auto;
+  
+}
+
+#introsection div.small{
+    font-size: 27px;
+}
+
+#sponsorsection{
+height: 230px;
+  background-color: black ;
+  color: white;
+}
+
+#sponsorsection h2{
+    text-align: center;
+    padding: 12px;
+    margin: 10px 20px;
+    
+}
+
+#sponsor{
+  height: 120px;
+  max-width: 1000px;
+  margin: 10px 290px;
+}
+.spimage{
+  height: 80%;
+  margin: 20px;
+}
+
+#footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(58, 48, 48);
+}
+

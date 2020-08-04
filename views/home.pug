@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+block content
+     section#introsection
+        div Welcome to Piyush Dance Academy
+        div.small Live! Learn! Dance!
+        div Eat Dance Sleep Repeat
+     section#missionsection
+        h2 OUR MISSION 
+        div.card 
+          h3 Dance Perfection 
+          div.card-box 
+            div.card-img
+              img(src="/static/img/2.png") 
+            div.card-content 
+              p This Academy to become a perfect dancer.
+        div.card
+          h3 Feel the Dance
+          div.card-box
+            div.card-img 
+              img(src="/static/img/1.png") 
+            div.card-content 
+              p This Academy to become a perfect dancer.
+        div.card
+          h3 Dance Teaching  
+          div.card-box
+            div.card-img 
+              img(src="/static/img/3.png") 
+            div.card-content 
+              p This Academy to become a perfect dancer.
+     section#sponsorsection
+         h2 our Sponsors
+         div#sponsor 
+          img(src="/static/img/logo1.png",class="spimage")
+          img(src="/static/img/logo2.png",class="spimage")
+          img(src="/static/img/logo3.png",class="spimage")
+          img(src="/static/img/logo4.png",class="spimage")
+     
